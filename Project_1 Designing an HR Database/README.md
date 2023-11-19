@@ -52,7 +52,7 @@ Create Entity Relationship Diagrams - Conceptual, Logic and Physical using <a hr
 <img src="ERD/Conceptual.png" alt="Conceptual ERD" width="1000">
 
 - <a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/0c9d2a1ab17d39216c97a99bca5d75f17feb0139/Project_1%20Designing%20an%20HR%20Database/ERD/Logical.png" title="Logical ERD">Logical ERD</a>
-<img src="ERD/logical.png" alt="Logical ERD" width="1000">
+<img src="ERD/Logical.png" alt="Logical ERD" width="1000">
 
 - <a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/0c9d2a1ab17d39216c97a99bca5d75f17feb0139/Project_1%20Designing%20an%20HR%20Database/ERD/Physical.png" title="Physical ERD">Physical ERD</a>
 <img src="ERD/Physical.png" alt="Physical ERD" width="1000">
