@@ -1,4 +1,6 @@
-# Data Architect Nanodegree Program
+# Udacity Data Architect Nanodegree Program
+
+<img src="img/Data Governance.png" alt="Nanodegree Image" width="1000" >
 
 # Created by Osama Alsubaie
 
