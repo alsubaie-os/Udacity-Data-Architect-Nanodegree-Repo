@@ -1,7 +1,5 @@
 # Udacity Data Architect Nanodegree Program
 
-<img src="img/Data Governance.png" alt="Nanodegree Image" width="1000" >
-
 # Created by Osama Alsubaie
 
 This repository contains projects and practice set for Udacity Data Architect Nanodegree Program.
