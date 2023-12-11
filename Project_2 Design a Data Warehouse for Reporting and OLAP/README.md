@@ -85,6 +85,9 @@ I used the data and build a Data System on <a href="https://www.snowflake.com/en
 >
 > <img src="img/ODS_query.png" alt="Physical ERD" width="1000"><br>
 
+### Data Size Comparison
+> <img src="img/Data Size Comparison.png" alt="Data Size comparison" width="1000"><br>
+
 ## 3.Data Warehouse (DWH)
 
 ### Star Schema
