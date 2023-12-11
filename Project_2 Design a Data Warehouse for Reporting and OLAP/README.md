@@ -70,7 +70,7 @@ I used the data and build a Data System on <a href="https://www.snowflake.com/en
 
 > <img src="img/Climate_stg.png" alt="Data Architecture Diagram" width="1000"><br>
 
-# 3.Operational Data Store (ODS)
+## 3.Operational Data Store (ODS)
 
 ### Physical ERD
 > <img src="img/Physical ERD.png" alt="Physical ERD" width="1000"><br>
@@ -88,7 +88,7 @@ I used the data and build a Data System on <a href="https://www.snowflake.com/en
 ### Data Size Comparison
 > <img src="img/Data Size Comparison.png" alt="Data Size comparison" width="1000"><br>
 
-## 3.Data Warehouse (DWH)
+## 4.Data Warehouse (DWH)
 
 ### Star Schema
 
