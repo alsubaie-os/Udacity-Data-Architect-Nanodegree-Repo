@@ -53,14 +53,14 @@ I used the data and build a Data System on <a href="https://www.snowflake.com/en
 
 ## 2.Staging Area
 
->>To upload the data to the Snowflake I used the snowsql CLI. <a href="https://github.com/alsubaie-os/Project_2 Design a Data Warehouse for Reporting and OLAP/Script/Upload_files_for_staging.sql">Here</a> is the script used to upload the files before moving to STAGE.
+>>To upload the data to the Snowflake I used the snowsql CLI. <a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/c79944fbdbf0298b1adee32f09b503935e9b0b1c/Project_2%20Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP/Script/Upload_files_for_staging.sh">Here</a> is the script used to upload the files before moving to STAGE.
 >
 >>It is important to mention the usage of flags `auto_compress=true` and `parallel=4` for big files to allow better performance while uploading.
 >
 >>With the data published to the Snowflake, it is time to move to the STAGE schema.
 >>
->>1. <a href="https://github.com/alsubaie-os/Project_2 Design a Data Warehouse for Reporting and OLAP/SQL Queries/json_staging.sql">SQL</a> commands to move data from JSON to STAGE.
->>2. <a href="https://github.com/alsubaie-os/Project_2 Design a Data Warehouse for Reporting and OLAP/SQL Queries/csv_staging.sql">SQL</a> commands to move data from CSV to STAGE.
+>>1. <a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/c79944fbdbf0298b1adee32f09b503935e9b0b1c/Project_2%20Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP/SQL%20Queries/json_staging.sql">SQL</a> commands to move data from JSON to STAGE.
+>>2. <a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/c79944fbdbf0298b1adee32f09b503935e9b0b1c/Project_2%20Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP/SQL%20Queries/csv_staging.sql">SQL</a> commands to move data from CSV to STAGE.
 
 ### Yelp Data
 
@@ -77,7 +77,7 @@ I used the data and build a Data System on <a href="https://www.snowflake.com/en
 
 ### Stage to ODS Query
 
-<a href="https://github.com/alsubaie-os/Project_2 Design a Data Warehouse for Reporting and OLAP/SQL Queries/staging_to_ods.sql">Queries</a> to move Stage data to ODS applying different sets of filter and creating the relationships between objects.
+<a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/c79944fbdbf0298b1adee32f09b503935e9b0b1c/Project_2%20Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP/SQL%20Queries/staging_to_ods.sql">Queries</a> to move Stage data to ODS applying different sets of filter and creating the relationships between objects.
 
 ### SQL Query AS a Prof for ODS tables
 
@@ -93,11 +93,11 @@ I used the data and build a Data System on <a href="https://www.snowflake.com/en
 
 ### ODS to DWH Query
 
-><a href="https://github.com/alsubaie-os/Project_2 Design a Data Warehouse for Reporting and OLAP/SQL Queries/ods_to_dwh.sql">Queries</a> to create star scheam and move data from ODS to DWH applying different sets of filter and creating the relationships between objects.
+><a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/c79944fbdbf0298b1adee32f09b503935e9b0b1c/Project_2%20Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP/SQL%20Queries/ods_to_dwh.sql">Queries</a> to create star scheam and move data from ODS to DWH applying different sets of filter and creating the relationships between objects.
 
 ### SQL Query AS a Prof for DWH tables
 
-><a href="https://github.com/alsubaie-os/Project_2 Design a Data Warehouse for Reporting and OLAP/SQL Queries/analysis_query.sql">Queries</a>
+><a href="https://github.com/alsubaie-os/Udacity-Data-Architect-Nanodegree-Repo/blob/c79944fbdbf0298b1adee32f09b503935e9b0b1c/Project_2%20Design%20a%20Data%20Warehouse%20for%20Reporting%20and%20OLAP/SQL%20Queries/analysis_query.sql">Queries</a>
 Shows a SQL query for generated report that clearly includes business name, temperature, precipitation, and ratings.
 >
 > <img src="img/DWH tables.png" alt="DWH tables" width="1000"><br>
